@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Represent genuine tabular data with captions, header cells, table sections, and appropriate spanning."
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- Create one valid HTML file containing two data tables. -->
+      <section>
+        <h3>Class Records</h3>
+        <table>
+          <caption>
+            Table 1. Scores by student and subject
+          </caption>
+          <!-- Table Head -->
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th>Subject scores</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <!-- Table Body -->
+          <tbody>
+            <tr>
+              <td>Ada</td>
+              <td>82</td>
+              <td>71</td>
+              <td>69</td>
+              <td>222</td>
+            </tr>
+            <tr>
+              <td>Musa</td>
+              <td>75</td>
+              <td>81</td>
+              <td>74</td>
+              <td>230</td>
+            </tr>
+            <tr>
+              <td>Grace</td>
+              <td>91</td>
+              <td>88</td>
+              <td>80</td>
+              <td>259</td>
+            </tr>
+          </tbody>
+          <!-- Table Footer -->
+          <tfoot>
+            <tr>
+              <td colspan="4">Class total</td>
+              <td>711</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <!-- Table 2 - A realistic weekly class timetable with at least five days and three time periods. -->
+      <section>
+        <h3>Weekly class timetable</h3>
+        <table>
+          <caption>
+            Table 2. Sample weekly timetable (Monday–Friday)
+          </caption>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>8:00–10:00</th>
+              <th>10:00–10:30</th>
+              <th>10:30–12:30</th>
+              <th>12:30–1:30</th>
+              <th>1:30–3:00</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>HTML</td>
+              <td rowspan="5">Break</td>
+              <td>Mathematics</td>
+              <td>Lunch</td>
+              <td>English</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>CSS</td>
+              <td>Physics</td>
+              <td>Lunch</td>
+              <td>Computer Studies</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>JavaScript</td>
+              <td>Biology</td>
+              <td>Lunch</td>
+              <td>Study Skills</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Database</td>
+              <td>Chemistry</td>
+              <td>Lunch</td>
+              <td>English</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>Web Design</td>
+              <td>Project Lab</td>
+              <td>Lunch</td>
+              <td>Revision</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="6">
+                Classes run from 8:00 a.m. to 3:00 p.m.; break and lunch are
+                included.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
